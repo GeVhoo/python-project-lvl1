@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: GeVhoo-brain-games
+Version: 0.1.0
+Summary: Simple game - Hexlet project
+Home-page: https://github.com/GeVhoo/python-project-lvl1
+Author: GeVhoo
+Author-email: gvahrushev@mail.ru
+License: UNKNOWN
+Description: # Brain games
+        
+        Hello World!
+        
+        This is my first project that i do in Hexlet course.
+        It's a simple game on which I learn to create my own package and place it on PyPI.
+        
+        Hope you enjoy it!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
