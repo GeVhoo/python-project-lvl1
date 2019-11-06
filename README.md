@@ -1,8 +1,7 @@
 # Brain games
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)[![Test Coverage](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage)](https://codeclimate.com/github/codeclimate/codeclimate/test_coverage)
+[![Build Status](https://travis-ci.org/GeVhoo/python-project-lvl1.svg?branch=master)](https://travis-ci.org/GeVhoo/python-project-lvl1)
 
 Hello World!
 
@@ -11,7 +10,7 @@ It's a simple game on which I learn to create my own package and place it on PyP
 
 Hope you enjoy it!
 
-# Direct install:
+### Direct install:
 
 pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/
 
