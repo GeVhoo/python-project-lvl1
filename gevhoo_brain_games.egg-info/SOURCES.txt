@@ -1,8 +1,0 @@
-brain_games/__init__.py
-brain_games/scripts/__init__.py
-brain_games/scripts/brain_games.py
-gevhoo_brain_games.egg-info/PKG-INFO
-gevhoo_brain_games.egg-info/SOURCES.txt
-gevhoo_brain_games.egg-info/dependency_links.txt
-gevhoo_brain_games.egg-info/entry_points.txt
-gevhoo_brain_games.egg-info/top_level.txt
