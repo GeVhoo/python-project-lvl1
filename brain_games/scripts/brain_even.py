@@ -26,6 +26,10 @@ def main():
             index += 1
         else:
             if (random_number % 2) == 0:
-                return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet\'s try again, {}!".format(your_answer, 'yes', name))
-            return print("'{}' is wrong answer ;(. Correct answer was '{}'.\nLet\'s try again, {}!".format(your_answer, 'no', name))
+                return print(
+                    "'{}' is wrong answer ;(. Correct answer was '{}'."
+                    "\nLet\'s try again, {}!".format(your_answer, 'yes', name))
+            return print(
+                    "'{}' is wrong answer ;(. Correct answer was '{}'."
+                    "\nLet\'s try again, {}!".format(your_answer, 'no', name))
     print('Congratulations, {}!'.format(name))
