@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "GeVhoo_brain_games"
-version = "0.1.2"
-description = "Simple game - Hexlet project.\n Direct install:\n pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/"
+version = "0.1.5"
+description = "Simple game - Hexlet project. Direct install: pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/"
 authors = ["GeVhoo <gvahrushev@mail.ru>"]
 packages = [
 	{ include = "brain_games" },
@@ -16,6 +16,8 @@ flake8 = "^3.7"
 
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
+brain-even = "brain_games.scripts.brain_even:main"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"

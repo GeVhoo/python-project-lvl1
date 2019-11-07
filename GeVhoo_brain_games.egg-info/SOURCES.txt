@@ -6,4 +6,5 @@ GeVhoo_brain_games.egg-info/top_level.txt
 brain_games/__init__.py
 brain_games/cli.py
 brain_games/scripts/__init__.py
+brain_games/scripts/brain_even.py
 brain_games/scripts/brain_games.py
