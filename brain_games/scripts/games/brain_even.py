@@ -4,12 +4,14 @@ import prompt
 from random import randint
 
 
-print('Welcome to the Brain Games!')
-print('Answer "yes" if number even otherwise answer "no".')
-print()
-
-
 def main():
+    print('Welcome to the Brain Games!')
+    brain_even()
+
+
+def brain_even():
+    print('Answer "yes" if number even otherwise answer "no".')
+    print()
     name = prompt.string('May I have your name? ')
     print('Hello, {}!'.format(name))
     print()
@@ -33,3 +35,7 @@ def main():
                     "'{}' is wrong answer ;(. Correct answer was '{}'."
                     "\nLet\'s try again, {}!".format(your_answer, 'no', name))
     print('Congratulations, {}!'.format(name))
+
+
+if __name__ == '__main__':
+    main()
