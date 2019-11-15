@@ -20,6 +20,7 @@ brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.games.brain_even:main"
 brain-calc = "brain_games.scripts.games.brain_calc:main"
 brain-gcd = "brain_games.scripts.games.brain_gcd:main"
+brain-progression = "brain_games.scripts.games.brain_progression:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
