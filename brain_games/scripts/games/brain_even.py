@@ -31,12 +31,13 @@ def brain_even():
             index += 1
         else:
             if (random_number % 2) == 0:
-                return print(Fore.RED +
+                return print(
+                    Fore.RED +
                     "'{}' is wrong answer ;(. Correct answer was '{}'."
                     "\nLet\'s try again, {}!".format(your_answer, 'yes', name))
-            return print(Fore.RED +
-                    "'{}' is wrong answer ;(. Correct answer was '{}'."
-                    "\nLet\'s try again, {}!".format(your_answer, 'no', name))
+            return print(
+                Fore.RED + "'{}' is wrong answer ;(. Correct answer was '{}'."
+                "\nLet\'s try again, {}!".format(your_answer, 'no', name))
     print(Fore.BLUE + Style.BRIGHT + 'Congratulations, {}!'.format(name))
 
 

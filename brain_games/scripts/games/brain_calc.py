@@ -35,9 +35,11 @@ def brain_calc():
             print(Fore.GREEN + 'Correct!')
             index += 1
         else:
-            return print(Fore.RED +
-                    "'{}' is wrong answer ;(. Correct answer was '{}'."
-                    "\nLet\'s try again, {}!".format(your_answer, correct_answer, name))
+            return print(
+                Fore.RED +
+                "'{}' is wrong answer ;(. Correct answer was '{}'."
+                "\nLet\'s try again, {}!"
+                .format(your_answer, correct_answer, name))
     print(Fore.BLUE + Style.BRIGHT + 'Congratulations, {}!'.format(name))
 
 

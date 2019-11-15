@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import prompt
-from random import randint, choice
+from random import randint
 from colorama import Fore, Style
 from colorama import init
 init(autoreset=True)
@@ -34,9 +34,10 @@ def brain_prime():
             print(Fore.GREEN + 'Correct!')
             index += 1
         else:
-            return print(Fore.RED +
-                    "'{}' is wrong answer ;(. Correct answer was '{}'."
-                    "\nLet\'s try again, {}!".format(your_answer, correct_answer, name))
+            return print(
+                Fore.RED + "'{}' is wrong answer ;(. Correct answer was '{}'."
+                "\nLet\'s try again, {}!"
+                .format(your_answer, correct_answer, name))
     print(Fore.BLUE + Style.BRIGHT + 'Congratulations, {}!'.format(name))
 
 
