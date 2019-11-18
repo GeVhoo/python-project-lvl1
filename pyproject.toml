@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GeVhoo_brain_games"
-version = "0.1.5"
+version = "0.1.9"
 description = "Simple game - Hexlet project. Direct install: pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/"
 authors = ["GeVhoo <gvahrushev@mail.ru>"]
 packages = [

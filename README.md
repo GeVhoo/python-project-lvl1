@@ -15,5 +15,18 @@ Hope you enjoy it!
 ### Direct install:
 
 pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/
+##
+
+### Links
+
+This project was built using these tools:
+
+| Tool                                                                        | Description                                             |
+|-----------------------------------------------------------------------------|---------------------------------------------------------|
+| [poetry](https://poetry.eustace.io/)                                        | "Python dependency management and packaging made easy"  |
+| [Flake8](https://http://flake8.pycqa.org/)                                  | "Linter"                                                |
+| [CodeClimate](https://codeclimate.com/)                                     | "Verifying code quality in automatic mode"              |
+| [Travis-ci](https://travis-ci.org/)                                         | "Continuous Integration"                                |
+| [colorama](https://pypi.org/project/colorama/)                              | "Add some color"                                        |
 
 
