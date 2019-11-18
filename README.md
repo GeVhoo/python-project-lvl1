@@ -17,7 +17,23 @@ Hope you enjoy it!
 pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/
 ##
 
+### Example installation and launch of the game
 [![asciicast](https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek.svg)](https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek)
+
+### Game №1 Parity Check
+[![asciicast](https://asciinema.org/a/lf5HGq7MHnt6Ag1rSGQ38B0OL.svg)](https://asciinema.org/a/lf5HGq7MHnt6Ag1rSGQ38B0OL)
+
+### Game №2 Calculator
+[![asciicast](https://asciinema.org/a/MdyXQryCZjNzXX84zvaDDBJIO.svg)](https://asciinema.org/a/MdyXQryCZjNzXX84zvaDDBJIO)
+
+### Game №3 Greatest Common Divisor
+[![asciicast](https://asciinema.org/a/qiC0uDXbRavosS5uFlcNtt3Jz.svg)](https://asciinema.org/a/qiC0uDXbRavosS5uFlcNtt3Jz)
+
+### Game №4 Arithmetic Progression
+[![asciicast](https://asciinema.org/a/Vwk2sCat3YgEKIGOUScsSh5DS.svg)](https://asciinema.org/a/Vwk2sCat3YgEKIGOUScsSh5DS)
+
+### Game №5 Is The Number Prime?
+[![asciicast](https://asciinema.org/a/5Z9hXW0qhrW9maTyZ4KS7iplL.svg)](https://asciinema.org/a/5Z9hXW0qhrW9maTyZ4KS7iplL)
 ##
 
 ### Links
