@@ -17,7 +17,7 @@ Hope you enjoy it!
 pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/
 ##
 
-<script id="asciicast-STcYoyvx8c6N1KPTxJvfL40ek" src="https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek.js" async></script>
+[![asciicast](https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek.svg)](https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek)
 ##
 
 ### Links
