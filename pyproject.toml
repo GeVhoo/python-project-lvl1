@@ -1,11 +1,13 @@
 [tool.poetry]
 name = "GeVhoo_brain_games"
-version = "0.2.0"
+version = "0.2"
 description = "Simple game - Hexlet project."
 authors = ["GeVhoo <gvahrushev@mail.ru>"]
-repository =["https://github.com/GeVhoo/python-project-lvl1"]
+repository = "https://github.com/GeVhoo/python-project-lvl1"
 classifiers = [
-    "Topic :: Software Development :: Libraries :: pygame",
+	"Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
 ]
 packages = [
 	{ include = "brain_games" },
