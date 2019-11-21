@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "GeVhoo_brain_games"
-version = "0.1.9"
+version = "0.2.0"
 description = "Simple game - Hexlet project."
 authors = ["GeVhoo <gvahrushev@mail.ru>"]
 repository =["https://github.com/GeVhoo/python-project-lvl1"]
@@ -20,12 +20,11 @@ colorama = "^0.4.1"
 flake8 = "^3.7"
 
 [tool.poetry.scripts]
-brain-games = "brain_games.scripts.brain_games:main"
-brain-even = "brain_games.scripts.games.brain_even:main"
-brain-calc = "brain_games.scripts.games.brain_calc:main"
-brain-gcd = "brain_games.scripts.games.brain_gcd:main"
-brain-progression = "brain_games.scripts.games.brain_progression:main"
-brain-prime = "brain_games.scripts.games.brain_prime:main"
+brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
+brain-progression = "brain_games.scripts.brain_progression:main"
+brain-prime = "brain_games.scripts.brain_prime:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
