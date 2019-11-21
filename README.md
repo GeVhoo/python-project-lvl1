@@ -17,8 +17,8 @@ Hope you enjoy it!
 pip install -i https://test.pypi.org/simple/ gevhoo-brain-games --extra-index-url https://pypi.org/simple/
 ##
 
-### Example installation and launch of the game
-[![asciicast](https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek.svg)](https://asciinema.org/a/STcYoyvx8c6N1KPTxJvfL40ek)
+### Example installation
+[![asciicast](https://asciinema.org/a/Ca3gyxJ6pDgV6Fmy10bQxqFGd.svg)](https://asciinema.org/a/Ca3gyxJ6pDgV6Fmy10bQxqFGd)
 
 ### Game №1 Parity Check
 [![asciicast](https://asciinema.org/a/lf5HGq7MHnt6Ag1rSGQ38B0OL.svg)](https://asciinema.org/a/lf5HGq7MHnt6Ag1rSGQ38B0OL)
