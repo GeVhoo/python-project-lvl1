@@ -1,18 +1,14 @@
 from random import randint, choice
+from operator import add, sub, mul
 
 
 DESCRIPTION = 'What is the result of the expression?'
 
 
 def get_conditions():
-    number_1 = randint(1, 100)
-    number_2 = randint(1, 100)
-    operation = choice(['+', '-', '*'])
-    question = '{} {} {}'.format(number_1, operation, number_2)
-    if operation == '+':
-        correct_answer = str(number_1 + number_2)
-    elif operation == '-':
-        correct_answer = str(number_1 - number_2)
-    else:
-        correct_answer = str(number_1 * number_2)
+    number1 = randint(1, 100)
+    number2 = randint(1, 100)
+    symbol, operation = choice([('+', add), ('-', sub), ('*', mul)])
+    question = '{} {} {}'.format(number1, symbol, number2)
+    correct_answer = str(operation(number1, number2))
     return (question, correct_answer)

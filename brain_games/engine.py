@@ -1,10 +1,10 @@
 import prompt
 from colorama import Fore, Style
 from colorama import init
-init(autoreset=True)
 
 
-def engine(game):
+def run(game):
+    init(autoreset=True)
     print(Fore.CYAN + Style.BRIGHT + 'Welcome to the Brain Games!')
     print(game.DESCRIPTION)
     print()
@@ -20,9 +20,10 @@ def engine(game):
             print(Fore.GREEN + 'Correct!')
             round -= 1
         else:
-            return print(
+            print(
                 Fore.RED +
                 "'{}' is wrong answer ;(. Correct answer was '{}'."
                 "\nLet\'s try again, {}!"
                 .format(answer, correct_answer, name))
+            return
     print(Fore.BLUE + Style.BRIGHT + 'Congratulations, {}!'.format(name))
