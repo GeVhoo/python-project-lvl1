@@ -11,13 +11,14 @@ def get_conditions():
     random_index = randint(1, 8)
     result = ''
     while index < 10:
+        next_number = str(number1 + (index * step))
         if result:
             result += ' '
         if random_index == index:
             result += '..'
-            correct_answer = str(number1 + (index * step))
+            correct_answer = next_number
         else:
-            result += str(number1 + (index * step))
+            result += next_number
         index += 1
     question = result
     return (question, correct_answer)

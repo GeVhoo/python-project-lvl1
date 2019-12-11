@@ -16,14 +16,14 @@ def run(game):
         (question, correct_answer) = game.get_conditions()
         print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
-        if answer == correct_answer:
-            print(Fore.GREEN + 'Correct!')
-            round -= 1
-        else:
+        if answer != correct_answer:
             print(
                 Fore.RED +
                 "'{}' is wrong answer ;(. Correct answer was '{}'."
                 "\nLet\'s try again, {}!"
                 .format(answer, correct_answer, name))
-            return
-    print(Fore.BLUE + Style.BRIGHT + 'Congratulations, {}!'.format(name))
+            break
+        print(Fore.GREEN + 'Correct!')
+        round -= 1
+    else:
+        print(Fore.BLUE + Style.BRIGHT + 'Congratulations, {}!'.format(name))

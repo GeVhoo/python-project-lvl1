@@ -9,9 +9,10 @@ def is_prime(number):
     if number % 2 == 0:
         return number == 2
     d = 3
-    while d <= sqrt(number) and number % d != 0:
+    sqrt_number = sqrt(number)
+    while d <= sqrt_number and number % d != 0:
         d += 2
-    return d > sqrt(number)
+    return d > sqrt_number
 
 
 def get_conditions():
