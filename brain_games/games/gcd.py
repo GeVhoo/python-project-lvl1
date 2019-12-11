@@ -10,12 +10,12 @@ def gcd(number1, number2):
             number1 = number1 % number2
         else:
             number2 = number2 % number1
-    return str(number1 + number2)
+    return number1 + number2
 
 
 def get_conditions():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     question = '{} {}'.format(number1, number2)
-    correct_answer = gcd(number1, number2)
+    correct_answer = str(gcd(number1, number2))
     return (question, correct_answer)
